@@ -1,12 +1,9 @@
 import React from 'react'
 
 function Calculator() {
-
-  return (
-    <>
-        
-    </>
-  )
+    return (
+        <></>
+    )
 }
 
-export default Calculator;
+export default Calculator
