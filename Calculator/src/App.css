@@ -1,0 +1,20 @@
+.btn{
+    height: 50px;
+    width: 50px;
+}
+
+input::placeholder{
+    color: #ffffff;
+}
+
+input:focus {
+    outline: none !important;
+  }
+ 
+select:focus{
+    outline: none;
+}  
+
+input[type="number"]::-webkit-inner-spin-button{
+    -webkit-appearance: none;
+}
