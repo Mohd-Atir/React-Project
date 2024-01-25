@@ -1,6 +1,7 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 import App from './App.jsx'
+import './App.css'
 import {Route, RouterProvider, createBrowserRouter, createRoutesFromElements } from 'react-router-dom'
 import {Home, About, Github} from './components'
 import { githubInfo } from './components/Github/Github.jsx'

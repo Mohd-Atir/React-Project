@@ -23,7 +23,7 @@ function Home() {
                             </div>
                         </div>
         
-                        <Link class="btn btn-outline-info px-4 me-md-2 text-black" to="#" role="button">Hire me</Link>
+                        <Link class="btn btn-outline-info px-4 me-md-2" to="#" role="button">Hire me</Link>
                     
                     </div>
                     <div class="col-lg-4 offset-lg-1 p-0 overflow-hidden shadow-lg">
