@@ -12,9 +12,9 @@ function TodoForm() {
   }
   return (
     <div className="col-12 col-sm-7 col-md-7 col-lg-7 my-2">
-      <div class="input-group">
-        <input type="text" class="form-control" value={todo} placeholder="Write todo..." onChange={(e) => setTodo(e.target.value)} />
-        <button class="btn btn-primary" type="button" onClick={add}>
+      <div className="input-group">
+        <input type="text" className="form-control" value={todo} placeholder="Write todo..." onChange={(e) => setTodo(e.target.value)} />
+        <button className="btn btn-primary" type="button" onClick={add}>
           Add Task
         </button>
       </div>
